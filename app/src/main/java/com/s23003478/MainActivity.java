@@ -35,7 +35,6 @@ public class MainActivity extends AppCompatActivity {
             if (inserted) {
                 Toast.makeText(MainActivity.this, "Data saved successfully", Toast.LENGTH_SHORT).show();
 
-                // Navigate to MapActivity
                 Intent intent = new Intent(MainActivity.this, MapActivity.class);
                 startActivity(intent);
 
